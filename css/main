@@ -1,0 +1,49 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+$raleway-font: 'Raleway', sans-serif;
+
+body {
+  font-family: $raleway-font;
+  h3, p {
+    font-family: inherit;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+.carousel-item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  .img-overlay {
+    background-color: rgb(222, 222, 221);
+    opacity: 0.251;
+  }
+  .carousel-caption {
+    max-width: 440px;
+    transform: translate(-84%);
+    left: initial;
+    bottom: initial;
+    .caption-text {
+      font-size: 18px;
+    }
+  }
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  opacity: 1;
+}
+
+.footer {
+  padding-top: 45px;
+  padding-bottom: 42px;
+  background-color: rgb(54, 54, 54);
+  a {
+    font-size: 18px;
+  }
+}
