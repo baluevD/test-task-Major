@@ -2,6 +2,7 @@
   padding-top: 45px;
   padding-bottom: 42px;
   background-color: rgb(54, 54, 54);
+
   ul {
     li {
       a {
@@ -9,10 +10,16 @@
       }
     }
   }
+
   .footer-tel-block {
     margin-top: -8px;
+
     a[href^="tel:"] {
       font-size: 1.75rem;
     }
+  }
+
+  button {
+    margin-left: 2px;
   }
 }

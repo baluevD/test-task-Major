@@ -8,41 +8,43 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!--    Custom stylesheet-->
     <link rel="stylesheet" href="css/main.css">
+
     <title>Urchins</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light navbar-expand-sm py-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
+    <header class="container px-0 d-flex justify-content-space-between align-items-center">
+        <nav class="navbar navbar-light navbar-expand-lg py-4 px-0 mr-auto">
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand py-0 pr-1 ml-lg-1 mr-2 d-lg-block d-sm-flex align-items-center main-brand-logo"><img class="img-fluid" src="img/logo-header.png"></a>
+            <div class="navbar-collapse offcanvas-collapse">
+                <button class="offcanvas-close d-lg-none d-sm-block" type="button" data-toggle="offcanvas-close">
                 </button>
-                <a href="#" class="navbar-brand py-0 pr-1 ml-1 mr-2"><img src="img/logo-header.png"></a>
-                <div id="Navbar" class="collapse navbar-collapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active ml-5 mr-3"><a href="#" class="nav-link">Наши ежи</a></li>
-                        <li class="nav-item active mx-3"><a href="#" class="nav-link">О ежах</a></li>
-                        <li class="nav-item active ml-3"><a href="#" class="nav-link">Новости</a>
-                        </li>
-                    </ul>
-                    <div class="input-group align-items-start">
-                        <input class="form-control border-top-0 border-left-0 border-right-0 rounded-0" type="search">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary border-0" type="button">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <span class="navbar-text pl-3 ml-4">
-                    <a href="tel:+72121221212" class="">+7 (212) 122-12-12</a>
-                </span>
+                <a href="#" class="navbar-brand py-none d-sm-block d-lg-none mt-3 mb-2 offcanvas-brand-logo"><img src="img/logo-header.png"></a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ml-lg-5 mr-lg-3 py-sm-1 py-lg-0 offcanvas-li-item"><a href="#" class="nav-link">Наши ежи</a></li>
+                    <li class="nav-item active mx-lg-3 py-sm-1 py-lg-0 offcanvas-li-item"><a href="#" class="nav-link">О ежах</a></li>
+                    <li class="nav-item active ml-lg-3 py-sm-1 py-lg-0 offcanvas-li-item"><a href="#" class="nav-link">Новости</a>
+                    </li>
+                </ul>
             </div>
         </nav>
+        <div class="input-group align-items-start d-sm-none d-lg-flex">
+            <input class="form-control border-top-0 border-left-0 border-right-0 rounded-0" type="search">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary border-0" type="button">
+                </button>
+            </div>
+        </div>
+        <span class="pl-3 ml-4 header-tel-block">
+                    <a href="tel:+72121221212" class="text-dark">+7 (212) 122-12-12</a>
+                </span>
     </header>
 
-    <section class="container mb-5 pb-2">
+    <section class="container mb-lg-5 mb-sm-4 mx-lg-auto mx-sm-0 mv-lg-auto pb-2 px-0 carousel-section">
         <div class="row">
             <div class="col">
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -52,9 +54,11 @@
                             <div class="position-absolute w-100 h-100 img-overlay"></div>
                             <div class="carousel-caption text-left d-block">
                                 <h2 class="text-dark font-weight-bold">Однажды Ежи съел Петруччо</h2>
-                                <p class="pb-2 pt-3 mt-3 text-dark caption-text">Ежи никогда больше ничего не ел, потому
+                                <p class="pb-lg-2 pb-sm-4 pt-3 mt-3 text-dark caption-text">Ежи никогда больше ничего не
+                                    ел, потому
                                     что ничего не было. Только пил.</p>
-                                <a href="#" role="button" class="btn btn-dark mt-1 font-weight-bold">Прочитать всю
+                                <a href="#" role="button" class="btn btn-dark mt-lg-1 mt-sm-0 font-weight-bold">Прочитать
+                                    всю
                                     историю
                                 </a>
                             </div>
@@ -70,30 +74,31 @@
             </div>
         </div>
     </section>
-    <section class="container mb-5 pb-2">
+    <section class="container mb-lg-5 mb-sm-4 pb-lg-2 pb-sm-0 types-urchins-section">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center px-0">
                 <h2 class="font-weight-bold">Мы продаем самых качественных ежей</h2>
                 <p>наши ежи никогда Вас не подведут</p>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-sm-6 col-lg-4 text-center">
-                <img src="img/Rectangle3.jpg" class="img-fluid mb-4" alt="Urchin with ears">
+        <div class="row mt-lg-4 types-urchins-row">
+            <div class="col-lg-4 col-sm-6 text-center pl-0">
+                <img src="img/Rectangle3.jpg" class="img-fluid mb-lg-4" alt="Urchin with ears">
                 <h4 class="mb-1 font-weight-bold">Ежи с ушами</h4>
                 <p>Наши ежи беззвучно топают по ночам, быстро сворачиваются в комок, соответствуют всем стандартам
                     качества</p>
             </div>
-            <div class="col-sm-6 col-lg-4 text-center">
-                <img src="img/Rectangle4.jpg" class="img-fluid mb-4" alt="Urchin without ears">
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img src="img/Rectangle4.jpg" class="img-fluid mb-lg-4" alt="Urchin without ears">
                 <h4 class="mb-1 font-weight-bold">Ежи без ушей</h4>
                 <p>Наши ежи беззвучно топают по ночам, быстро сворачиваются в комок, соответствуют всем стандартам
                     качества</p>
             </div>
-            <div class="col-sm-6 col-lg-4 text-center">
-                <img src="img/Rectangle5.jpg" class="img-fluid mb-4" alt="Funny Urchin">
+            <div class="col-lg-4 col-sm-6 text-center mt-lg-0 mt-sm-1">
+                <img src="img/Rectangle5.jpg" class="img-fluid mb-lg-4" alt="Funny Urchin">
                 <h4 class="mb-1 font-weight-bold">Веселые ежи</h4>
-                <p>Наши ежи беззвучно топают по ночам, быстро сворачиваются в комок, соответствуют всем стандартам
+                <p class="mb-sm-2 mb-lg-3">Наши ежи беззвучно топают по ночам, быстро сворачиваются в комок,
+                    соответствуют всем стандартам
                     качества</p>
             </div>
         </div>
@@ -101,11 +106,11 @@
 
     <section class="jumbotron mb-0">
         <div class="container">
-            <div class="row mt-2">
-                <div class="offset-1 col-5 col-lg-5">
-                    <img src="img/Rectangle6.jpg" class="img-fluid">
+            <div class="row mt-lg-2">
+                <div class="offset-lg-1 col-lg-5 col-sm-12 img-container">
+                    <img src="img/Rectangle6.jpg" class="img-fluid mb-sm-3">
                 </div>
-                <div class="col-6 col-lg-6">
+                <div class="col-lg-6 col-sm-12 pr-0">
                     <p>Обыкновенный ёж — животное небольших размеров. Длина его тела составляет 20—30 см, хвоста — около
                         3 см, масса тела — 700—800 г.Уши относительно небольшие (обычно меньше 3,5 см). Морда вытянутая.
                         Нос у животного острый и постоянно влажный. У обыкновенных ежей, обитающих на Кипре, уши более
@@ -116,8 +121,8 @@
                         ». </p>
                 </div>
             </div>
-            <div class="row mt-4 mb-1">
-                <div class="col-6 col-lg-6">
+            <div class="row mt-lg-4 mb-lg-2">
+                <div class="col-lg-6 col-sm-12 pl-0">
                     <p>Обыкновенный ёж — это животное, активное в ночное время суток.Не любит надолго уходить из своего
                         дома. День ежи проводят в гнезде или других укрытиях.</p>
                     <p>Гнёзда строят в кустах, ямах, пещерах, заброшенных норах грызунов или в корнях деревьев. Обычно
@@ -126,23 +131,23 @@
                         вылизывают языком. Самцы агрессивны друг к другу, ревностно охраняют свои участки. Площадь таких
                         участков составляет у самцов 7—39 га, а у самок — 6—10 га.</p>
                 </div>
-                <div class="col-6 col-lg-6">
+                <div class=" col-lg-6 col-sm-12 pr-lg-0 img-container-bot">
                     <img src="img/Rectangle7.jpg" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer d-sm-flex">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-sm-3 pl-0">
                     <a href="#" class="ml-1">
                         <img src="img/logo-footer.png" alt="Urchin logo" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-lg-2">
-                    <h5 class="text-white font-weight-bold">Наши ежи</h5>
-                    <ul class="list-unstyled text-white">
+                <div class="col-lg-2 col-sm-3 d-lg-block d-sm-flex align-items-center">
+                    <h5 class="text-white font-weight-bold mb-lg-2 mb-sm-0">Наши ежи</h5>
+                    <ul class="list-unstyled text-white d-lg-block d-sm-none">
                         <li><a class="text-white" href="#">Ежи с ушами</a></li>
                         <li><a class="text-white" href="#">Ежи без ушей</a></li>
                         <li><a class="text-white" href="#">Веселые ежи</a></li>
@@ -150,27 +155,29 @@
                         <li><a class="text-white" href="#">Красивые ежи</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
-                    <h5 class="text-white font-weight-bold">О ежах</h5>
-                    <ul class="list-unstyled">
+                <div class="col-lg-2 col-sm-2 d-lg-block d-sm-flex align-items-center">
+                    <h5 class="text-white font-weight-bold mb-lg-2 mb-sm-0">О ежах</h5>
+                    <ul class="list-unstyled d-lg-block d-sm-none">
                         <li><a class="text-white" href="#">Рейтинги</a></li>
                         <li><a class="text-white" href="#">История создания</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
-                    <h5 class="text-white font-weight-bold">Новости</h5>
-                    <ul class="list-unstyled">
+                <div class=" offset-lg-0 offset-sm-1 col-lg-2 col-sm-3  d-lg-block d-sm-flex align-items-center">
+                    <h5 class="text-white font-weight-bold mb-lg-2 mb-sm-0 ml-lg-0 ml-sm-4">Новости</h5>
+                    <ul class="list-unstyled d-lg-block d-sm-none">
                         <li><a class="text-white" href="#">В мире</a></li>
                         <li><a class="text-white" href="#">В стране</a></li>
                     </ul>
                 </div>
-                <div class="offset-lg-1 col-lg-3 text-right footer-tel-block">
-<!--                    <h3 class="text-white mr-2">+7 (212) 122-12-12</h3>-->
+                <div class="offset-lg-1 col-lg-3 col-sm-6 pr-0 text-right  order-lg-4 order-sm-5 d-lg-block d-sm-flex align-items-center justify-content-end footer-tel-block">
                     <a href="tel:+72121221212" class="text-white mr-2" style="">+7 (212) 122-12-12</a>
 
                 </div>
-                <div class="col-lg-12">
-                    <button type="button" class="btn btn-light px-4 mt-3 border-0 rounded-0 font-weight-bold">Отправить благодарность создателям</button>
+                <div class=" col-lg-12 col-sm-6 order-lg-5 order-sm-4 pl-0">
+                    <button type="button"
+                            class="btn btn-light px-4 mt-lg-3 mt-sm-4 border-0 rounded-0 font-weight-bold">Отправить
+                        благодарность создателям
+                    </button>
                 </div>
             </div>
         </div>
@@ -184,5 +191,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            'use strict';
+
+            $('[data-toggle="offcanvas"]').on('click', function () {
+                $('.offcanvas-collapse').addClass('open');
+                $('body').addClass('offcanvas-open');
+            })
+            $('[data-toggle="offcanvas-close"]').on('click', function () {
+                $('.offcanvas-collapse').removeClass('open');
+                $('body').removeClass('offcanvas-open');
+
+            })
+        })
+    </script>
 </body>
 </html>

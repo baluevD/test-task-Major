@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+
+  body {
+    h2 {
+      font-size: 1.25rem;
+      line-height: 1.25rem;
+    }
+
+    h5 {
+      font-size: 1.125rem;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .carousel-section {
+      .carousel-item {
+        .carousel-caption {
+          .caption-text {
+            font-size: 14px;
+          }
+
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .footer {
+      .footer-tel-block {
+        a[href^="tel:"] {
+          font-weight: 500;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  .col-sm-12 {
+    padding: 0;
+  }
+  .navbar-light .navbar-toggler-icon {
+    width: 32px;
+    height: 23px;
+    background-image: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAXCAYAAABqBU3hAAAAQElEQVRIie3WsQ0AIAwDwQcxCCPDxEGZ4gt8C8RKYXkAhWiax1t/YNshIkLVPXDsAGoVL+CaASJCpy+iz0cp8AA2vgRtmhIHwQAAAABJRU5ErkJggg==");
+  }
+  .navbar-brand {
+    margin-left: 3.5rem;
+  }
+  .main-brand-logo {
+    img {
+      height: 30px;
+      width: 90px;
+    }
+  }
+
+  .carousel-section {
+    max-width: 100%;
+
+    .col {
+      padding-right: 0;
+
+      .carousel-control-prev {
+        width: 6.5%;
+      }
+
+      .carousel-control-next {
+        width: 6.5%;
+      }
+
+      .carousel-item {
+        .carousel-caption {
+          margin-left: -7.5%;
+          max-width: 300px;
+
+          .caption-text {
+            line-height: 1.25rem;
+          }
+        }
+      }
+    }
+  }
+  .jumbotron {
+    padding: 0;
+  }
+  .types-urchins-section {
+    .types-urchins-row {
+      margin-top: 11px;
+
+      .col-sm-6:nth-child(2) {
+        padding-left: 15px;
+        padding-right: 0;
+      }
+
+      .col-sm-6:last-child {
+        padding-left: 0;
+        padding-right: 15px;
+      }
+
+      .img-fluid {
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .footer {
+    padding-top: 1.5rem;
+
+    h5:first-child {
+      margin-left: 10px;
+    }
+
+    h5:nth-child(2) {
+      margin-left: 18px;
+    }
+
+    .footer-tel-block {
+      margin-top: 24px;
+    }
+  }
+}

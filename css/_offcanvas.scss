@@ -1,0 +1,64 @@
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    background-color: rgb(255, 255, 255);
+    width: 369px;
+    height: 751px;
+    z-index: 116;
+    padding-right: 1rem;
+    visibility: hidden;
+    overflow-x: hidden;
+    transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    -webkit-transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  }
+
+  .offcanvas-collapse.open {
+    padding-right: 0;
+    visibility: visible;
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+
+  .offcanvas-close {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    -webkit-appearance: button;
+    background-color: transparent;
+    left: 20px;
+    top: 24px;
+    width: 11px;
+    height: 27px;
+    background-image: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAARCAYAAAAL4VbbAAAAs0lEQVQokY3SLY4CMRgG4CcsQWBWEQwSyyFwmIUDcAAsGgxZtQchqHWL3iAQgMViuASChJ9MwpBm0k7mTSraPF/Tfu2H8jSwRA+begnN4C++XvNmCjexRj9Yu8fgJ7Z4BGMegy3sC3Aag20cA3TDJAY7OBXgOAa7OAfwilHi4naFM36nYGrnYVlB5TPnqdyNPFmfD1X6nCf2grOyguxv/BcKfmoJfMEAf8Fayr6TfdMVFvAERbY7VWUj8A0AAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .offcanvas-open {
+    overflow: hidden;
+  }
+
+  .offcanvas-brand-logo {
+    margin-left: 70px;
+
+    img {
+      height: 30px;
+      width: 90px;
+    }
+  }
+
+  .offcanvas-li-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.302);
+    padding-left: 59px;
+  }
+  .offcanvas-li-item:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.302);
+  }
+}

@@ -1,4 +1,6 @@
-.navbar-expand-sm {
+header {
+  max-width: 1140px;
+
   .navbar-nav {
     .nav-link {
       padding-left: 11px;
@@ -35,7 +37,8 @@
     }
   }
 
-  .navbar-text {
+  .header-tel-block {
     font-size: 22px;
   }
 }
+
