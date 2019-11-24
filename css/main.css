@@ -246,15 +246,19 @@ header .header-tel-block {
 
   .offcanvas-brand-logo {
     margin-left: 70px;
+    margin-right: auto;
+    width: 90px;
   }
   .offcanvas-brand-logo img {
     height: 30px;
     width: 90px;
   }
 
-  .offcanvas-li-item {
+  header .offcanvas-li-item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.302);
-    padding-left: 59px;
+  }
+  header .offcanvas-li-item .nav-link {
+    padding-left: 70px;
   }
 
   .offcanvas-li-item:first-child {

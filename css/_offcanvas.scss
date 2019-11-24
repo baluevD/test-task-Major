@@ -46,6 +46,8 @@
 
   .offcanvas-brand-logo {
     margin-left: 70px;
+    margin-right: auto;
+    width: 90px;
 
     img {
       height: 30px;
@@ -53,10 +55,16 @@
     }
   }
 
-  .offcanvas-li-item {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.302);
-    padding-left: 59px;
+  header {
+    .offcanvas-li-item {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.302);
+
+      .nav-link {
+        padding-left: 70px;
+      }
+    }
   }
+
   .offcanvas-li-item:first-child {
     border-top: 1px solid rgba(0, 0, 0, 0.302);
   }
@@ -65,7 +73,7 @@
     display: none;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.49);
+    background-color: rgba(0, 0, 0, 0.49);
     height: 752px;
     position: absolute;
     width: 100%;
