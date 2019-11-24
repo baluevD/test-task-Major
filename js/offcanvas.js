@@ -5,7 +5,7 @@ $(function () {
         $('.offcanvas-collapse').addClass('open');
         $('body').addClass('offcanvas-open');
         $('<div class="overlay">&nbsp;</div>').prependTo($('body'));
-        $(".overlay").show("300");
+        $(".overlay").show(300);
     })
     $('[data-toggle="offcanvas-close"]').on('click', function () {
         $('.offcanvas-collapse').removeClass('open');
