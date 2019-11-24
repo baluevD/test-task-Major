@@ -1,0 +1,18 @@
+.footer {
+  padding-top: 45px;
+  padding-bottom: 42px;
+  background-color: rgb(54, 54, 54);
+  ul {
+    li {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+  .footer-tel-block {
+    margin-top: -8px;
+    a[href^="tel:"] {
+      font-size: 1.75rem;
+    }
+  }
+}
