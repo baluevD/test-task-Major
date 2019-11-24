@@ -4,19 +4,23 @@
     top: 0;
     bottom: 0;
     left: -300px;
-    background-color: rgb(255, 255, 255);
-    width: 369px;
-    height: 751px;
+    width: 100%;
+    height: 752px;
     z-index: 116;
     padding-right: 1rem;
     visibility: hidden;
     overflow-x: hidden;
-    transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    background: -o-linear-gradient(left, rgb(255, 255, 255) 369px, rgba(0, 0, 0, 0.49) 0%);
+    background: linear-gradient(to right, rgb(255, 255, 255) 369px, rgba(0, 0, 0, 0.49) 0%);
     -webkit-transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
     -o-transition: transform .3s ease-in-out, visibility .3s ease-in-out;
-    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+
+    .navbar-nav {
+      max-width: 369px;
+    }
   }
+
 
   .offcanvas-collapse.open {
     padding-right: 0;
