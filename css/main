@@ -1,9 +1,9 @@
 @import "typography";
 @import "header";
-@import "carousel";
-@import "types-urchins-section";
-@import "jumbotron";
+@import "banner";
+@import "tile";
+@import "content";
 @import "footer";
 @import "sm-layout";
 @import "sm-typography";
-@import "offcanvas";
+@import "pull-down-menu";

@@ -17,7 +17,7 @@
     }
   }
 
-  .carousel-section {
+  .banner {
     max-width: 100%;
 
     .col {
@@ -43,11 +43,11 @@
       }
     }
   }
-  .jumbotron {
+  .content {
     padding: 0;
   }
-  .types-urchins-section {
-    .types-urchins-row {
+  .tile {
+    .tile-row {
       margin-top: 11px;
 
       .col-sm-6:nth-child(2) {

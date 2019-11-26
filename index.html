@@ -14,20 +14,20 @@
     <title>Urchins</title>
 </head>
 <body>
-    <header class="container px-0 d-flex justify-content-space-between align-items-center position-relative">
+    <header class="container px-0 d-flex justify-content-space-between align-items-center position-relative header">
         <nav class="navbar navbar-light navbar-expand-lg py-4 px-0 mr-auto">
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="pull-down-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a href="#" class="navbar-brand py-0 pr-1 ml-lg-1 mr-2 d-lg-block d-sm-flex align-items-center main-brand-logo"><img class="img-fluid" src="img/logo-header.png" alt="Urchin logo"></a>
-            <div class="navbar-collapse offcanvas-collapse">
-                <button class="offcanvas-close d-lg-none d-sm-block" type="button" data-toggle="offcanvas-close">
+            <div class="navbar-collapse pull-down-menu-collapse">
+                <button class="pull-down-menu-close d-lg-none d-sm-block" type="button" data-toggle="pull-down-menu-close">
                 </button>
-                <a href="#" class="navbar-brand py-none d-sm-block d-lg-none mt-3 mb-2 offcanvas-brand-logo"><img src="img/logo-header.png"></a>
+                <a href="#" class="navbar-brand py-none d-sm-block d-lg-none mt-3 mb-2 pull-down-menu-brand-logo"><img src="img/logo-header.png"></a>
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active ml-lg-5 mr-lg-3 py-sm-1 py-lg-0 offcanvas-li-item"><a href="#" class="nav-link text-dark">Наши ежи</a></li>
-                    <li class="nav-item mx-lg-3 py-sm-1 py-lg-0 offcanvas-li-item"><a href="#" class="nav-link text-dark ">О ежах</a></li>
-                    <li class="nav-item ml-lg-3 py-sm-1 py-lg-0 offcanvas-li-item"><a href="#" class="nav-link text-dark">Новости</a>
+                    <li class="nav-item active ml-lg-5 mr-lg-3 py-sm-1 py-lg-0 pull-down-menu-li-item"><a href="#" class="nav-link text-dark">Наши ежи</a></li>
+                    <li class="nav-item mx-lg-3 py-sm-1 py-lg-0 pull-down-menu-li-item"><a href="#" class="nav-link text-dark ">О ежах</a></li>
+                    <li class="nav-item ml-lg-3 py-sm-1 py-lg-0 pull-down-menu-li-item"><a href="#" class="nav-link text-dark">Новости</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
         </span>
     </header>
 
-    <section class="container mb-lg-5 mb-sm-4 mx-lg-auto mx-sm-0 mv-lg-auto pb-2 px-0 carousel-section">
+    <section class="container mb-lg-5 mb-sm-4 mx-lg-auto mx-sm-0 mv-lg-auto pb-2 px-0 banner">
         <div class="row">
             <div class="col">
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -74,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="container mb-lg-5 mb-sm-4 pb-lg-2 pb-sm-0 types-urchins-section">
+    <section class="container mb-lg-5 mb-sm-4 pb-lg-2 pb-sm-0 tile">
         <div class="row">
             <div class="col-12 text-center px-0">
                 <h2 class="font-weight-bold">Мы продаем самых качественных ежей</h2>
@@ -104,7 +104,7 @@
         </div>
     </section>
 
-    <section class="jumbotron mb-0">
+    <section class="container-fluid mb-0 content">
         <div class="container">
             <div class="row mt-lg-2">
                 <div class="offset-lg-1 col-lg-5 col-sm-12 img-container">
@@ -191,7 +191,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
-    <!--    Custom offcanvas-->
-    <script src="js/offcanvas.js"></script>
+    <!--    Custom pull-down-menu-->
+    <script src="js/pull-down-menu.js"></script>
 </body>
 </html>

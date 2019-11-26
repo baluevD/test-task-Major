@@ -1,5 +1,5 @@
 @media (max-width: 991.98px) {
-  .offcanvas-collapse {
+  .pull-down-menu-collapse{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -10,14 +10,14 @@
     padding-right: 1rem;
     visibility: hidden;
     overflow-x: hidden;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     -webkit-transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
     -o-transition: transform .3s ease-in-out, visibility .3s ease-in-out;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
   }
 
 
-  .offcanvas-collapse.open {
+  .pull-down-menu-collapse.open {
     padding-right: 0;
     visibility: visible;
     -webkit-transform: translateX(300px);
@@ -25,7 +25,7 @@
     transform: translateX(300px);
   }
 
-  .offcanvas-close {
+  .pull-down-menu-close {
     position: absolute;
     cursor: pointer;
     border: none;
@@ -40,11 +40,11 @@
     background-position: center center;
   }
 
-  .offcanvas-open {
+  .pull-down-menu-open {
     overflow: hidden;
   }
 
-  .offcanvas-brand-logo {
+  .pull-down-menu-brand-logo {
     margin-left: 70px;
     margin-right: auto;
     width: 90px;
@@ -55,8 +55,8 @@
     }
   }
 
-  header {
-    .offcanvas-li-item {
+  .header {
+    .pull-down-menu-li-item {
       border-bottom: 1px solid rgba(0, 0, 0, 0.302);
 
       .nav-link {
@@ -65,7 +65,7 @@
     }
   }
 
-  .offcanvas-li-item:first-child {
+  .pull-down-menu-li-item:first-child {
     border-top: 1px solid rgba(0, 0, 0, 0.302);
   }
 
