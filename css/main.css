@@ -2,9 +2,6 @@
 body {
   font-family: "Raleway", sans-serif;
 }
-body h3, body p {
-  font-family: inherit;
-}
 body h2 {
   font-size: 30px;
 }
@@ -107,10 +104,6 @@ body h2 {
 }
 
 @media (max-width: 768px) {
-  .col-sm-12 {
-    padding: 0;
-  }
-
   .navbar-light .navbar-toggler-icon {
     width: 32px;
     height: 23px;
@@ -147,6 +140,9 @@ body h2 {
   }
 
   .content {
+    padding: 0;
+  }
+  .content .col-sm-12 {
     padding: 0;
   }
 

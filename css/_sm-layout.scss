@@ -1,7 +1,5 @@
 @media (max-width: 768px) {
-  .col-sm-12 {
-    padding: 0;
-  }
+
   .navbar-light .navbar-toggler-icon {
     width: 32px;
     height: 23px;
@@ -45,6 +43,10 @@
   }
   .content {
     padding: 0;
+
+    .col-sm-12 {
+      padding: 0;
+    }
   }
   .tile {
     .tile-row {
@@ -68,6 +70,7 @@
   .footer {
     padding-top: 1.5rem;
     padding-bottom: 27px;
+
     h5:first-child {
       margin-left: 10px;
     }
