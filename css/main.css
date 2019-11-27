@@ -39,7 +39,14 @@ body h2 {
   font-size: 22px;
 }
 
-.carousel-item .img-overlay {
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
   background-color: #dededd;
   opacity: 0.251;
 }
